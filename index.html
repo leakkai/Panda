@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="landing w-100 h-100 d-flex align-items-center">
+	<section class="landing w-100 h-100 d-flex align-items-center">
 		<div class="intro">
 			<h1>Happy Buddha</h1>
 			<h2>Slogan Here.</h2>
@@ -16,17 +16,26 @@
 				<button class="btn btn-outline-info btn-lg">Learn More</button>
 			</div>
 		</div>
-	</div>
+	</section>
 	
 	<section class="about">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-sm-7 p-0 push-sm-5">
+				<div class="col-md-6 p-0 push-md-6">
 					<img src="images/potato.jpeg" class="img-fluid">
 				</div>
-				<div class="col-sm-5 pull-sm-7 text-center">
-					<h1>Our Story</h1>
-					<p>Blah blah blah blah blah blah blah</p>
+				<div class="col-md-6 pull-md-6 text-center">
+					<h2>Our Story</h2>
+					<p>Blah blah blah blah blah</p>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-md-6 p-0">
+					<img src="images/curry.jpeg" class="img-fluid">
+				</div>
+				<div class="col-md-6 text-center">
+					<h2>Our Vision</h2>
+					<p>To become the very best</p>
 				</div>
 			</div>
 		</div>
@@ -34,7 +43,6 @@
 	
 	<section class="features text-center">
 		<div class="container">
-			<h1>Features</h1>
 			<div class="row text-center">
 				<div class="col p-3">
 					<span class="fa fa-rocket fa-3x m-3"></span>
@@ -56,13 +64,13 @@
 	</div>
 </section>
 
-<section class="specialities w-100 h-100">
+<section class="specialities w-100">
 	<div class="container h-100 d-flex align-items-center">
 		<div>
 			<h1 class="text-center">Specialities</h1>
 			<div class="card-deck text-center">
 				<div class="card">
-					<img class="card-img-top img-fluid" src="images/chicken-steak.jpeg"></img>
+					<img class="img-fluid" src="images/chicken-steak.jpeg"></img>
 					<div class="card-block">
 						<h4 class="card-title">Chicken Steak</h4>
 						<p class="card-text">Panda chicken steak best steak</p>
@@ -70,7 +78,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top img-fluid" src="images/chicken-steak.jpeg"></img>
+					<img class="img-fluid" src="images/chicken-steak.jpeg"></img>
 					<div class="card-block">
 						<h4 class="card-title">Chicken Steak</h4>
 						<p class="card-text">Panda chicken steak best steak</p>
@@ -78,7 +86,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top img-fluid" src="images/chicken-steak.jpeg"></img>
+					<img class="img-fluid" src="images/chicken-steak.jpeg"></img>
 					<div class="card-block">
 						<h4 class="card-title">Chicken Steak</h4>
 						<p class="card-text">Panda chicken steak best steak</p>
@@ -93,13 +101,21 @@
 <section class="menu">
 	<h1 class="text-center">Menu</h1>
 	<div class="container">
-		
+		<div class="card-columns">
+			<div class="card">
+				<img class="card-img-top img-fluid" src="..." alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">Card title that wraps to a new line</h4>
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </section>
 
 <section class="order">
-
+	
 </section>
 
 <section id="map">
@@ -109,28 +125,24 @@
 <section class="contact text-center">
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col pb-3">
 				<span class="fa fa-car fa-3x"></span>
 				<h5>Delivery Service</h5>
-				<p>555-444-25252</p>
+				<p>555-444-2525</p>
 			</div>
-			<div class="col">
+			<div class="col pb-3">
 				<span class="fa fa-clock-o fa-3x"></span>
 				<h5>Opening Time</h5>
 				<p>Everyday, Happy Day</p>
 			</div>
-			<div class="col">
-				<span class="fa fa-map-marker fa-3x"></span>
-				<h5>Location</h5>
-				<p>Happy Place</p>
+			<div class="col pb-3">
+				<span class="fa fa-facebook fa-3x"></span>
+				<h5>Facebook</h5>
+				<a href="#" class="btn">Go To Our Page</a>
 			</div>
 		</div>
 	</div>
 </section>
-
-<footer>
-
-</footer>
 
 
 <script type="text/javascript" src="js/vendor/jquery-3.2.1.js"></script>

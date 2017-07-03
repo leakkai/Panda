@@ -16,6 +16,31 @@ h1{
 	margin-bottom: 1em;
 }
 
+/* BOOTSTRAP OVERRIDE */
+
+.btn-outline-primary{
+	border-color: #ff8533;
+	color: #ff8533;
+	border-radius: 0;
+}
+
+.btn-outline-primary:hover{
+	border-color: #ff8533;
+	background-color: #ff8533;
+	color: #fff;
+}
+
+.btn-outline-info{
+	border-color: #fff;
+	color: #fff;
+	border-radius: 0;
+}
+
+.btn-outline-info:hover{
+	background-color: #ff8533;
+	border-color : #ff8533;
+}
+
 /* LANDIND */
 .landing{
 	color: #fff;
@@ -31,37 +56,17 @@ h1{
 .landing .intro button{
 }
 
-.landing .intro .btn-outline-primary{
-	border-color: #ff8533;
-	color: #ff8533;
-	border-radius: 0;
-}
-
-.landing .intro .btn-outline-primary:hover{
-	background-color: #ff8533;
-	color: #fff;
-}
-
-.landing .intro .btn-outline-info{
-	border-color: #fff;
-	color: #fff;
-	border-radius: 0;
-}
-
-.landing .intro .btn-outline-info:hover{
-	background-color: #ff8533;
-	border-color : #ff8533;
-}
-
 /* ABOUT */
 
 
-.about .about-img{
+.about .row{
+	border: 1px solid #ccc;
 }
 
 
 /* FEATURES */
 .features{
+	padding-top: 0;
 }
 
 .features .col{
@@ -85,6 +90,16 @@ h1{
 	color: #fff;
 }
 
+.specialities .card{
+	border-color: #bbb;
+	border-radius: 0;
+}
+
+.specialities p.price{
+	font-size: 2em;
+	color: #ff8533;
+}
+
 .contact{
 	color: #ff8533;
 	background-color: #333;
@@ -93,3 +108,17 @@ h1{
 .contact .fa{
 	margin-bottom: 0.5em;
 }
+
+.contact h5{
+	margin-bottom: 1em;
+}
+
+.contact a{
+	color: #ff8533;
+	border: 1px solid #ff8533;
+}
+
+
+
+
+
