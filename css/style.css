@@ -96,21 +96,41 @@ h1{
 }
 
 .specialities p.price{
-	font-size: 2em;
+	font-size: 2rem;
 	color: #ff8533;
 }
 
+/* MENU */
+.menu{
+	background-color: #fafafa;
+}
+
+.menu .menu-item{
+	margin-bottom: 1rem;
+}
+
+.menu .menu-price{
+	color: #ff8533;
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+
+.menu .card{
+	margin-bottom: 5rem;
+}
+
+/* CONTACT */
 .contact{
 	color: #ff8533;
 	background-color: #333;
 }
 
 .contact .fa{
-	margin-bottom: 0.5em;
+	margin-bottom: 2rem;
 }
 
 .contact h5{
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 
 .contact a{
