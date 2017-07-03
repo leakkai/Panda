@@ -1,21 +1,95 @@
+/* THEME COLOR */
+/* #FF6600 */
+
+
 html, body{
 	width: 100%;
 	height: 100%;
 }
 
-section.landing{
-	background-color: #ddd;
+section{
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
-section.about{
-
+h1{
+	margin-bottom: 1em;
 }
 
-section.specialities{
-	background-color: #00aaff;
+/* LANDIND */
+.landing{
+	color: #fff;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("../images/food-table.jpg");
+	background-position: center;
+    background-size: cover;
 }
 
-.test-box{
-	height: 250px;
-	background-color: #3399ff;
+.landing .intro{
+	margin-left: 10%;
+}
+
+.landing .intro button{
+}
+
+.landing .intro .btn-outline-primary{
+	border-color: #ff8533;
+	color: #ff8533;
+	border-radius: 0;
+}
+
+.landing .intro .btn-outline-primary:hover{
+	background-color: #ff8533;
+	color: #fff;
+}
+
+.landing .intro .btn-outline-info{
+	border-color: #fff;
+	color: #fff;
+	border-radius: 0;
+}
+
+.landing .intro .btn-outline-info:hover{
+	background-color: #ff8533;
+	border-color : #ff8533;
+}
+
+/* ABOUT */
+
+
+.about .about-img{
+}
+
+
+/* FEATURES */
+.features{
+}
+
+.features .col{
+	border: 1px solid transparent;
+	transition: all 0.3s;
+}
+
+.features .col:hover{
+	color: #ff8533;
+	border: 1px solid #ff8533;
+}
+
+/* SPECIALIST */
+.specialities{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/shrimp.jpg");
+	background-position: center;
+    background-size: cover;
+}
+
+.specialities h1{
+	color: #fff;
+}
+
+.contact{
+	color: #ff8533;
+	background-color: #333;
+}
+
+.contact .fa{
+	margin-bottom: 0.5em;
 }
