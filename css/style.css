@@ -59,81 +59,81 @@ h1{
 /* ABOUT */
 
 
-.about .row{
+#about .row{
 	border: 1px solid #ccc;
 }
 
 
 /* FEATURES */
-.features{
+#features{
 	padding-top: 0;
 }
 
-.features .col{
+#features .col{
 	border: 1px solid transparent;
 	transition: all 0.3s;
 }
 
-.features .col:hover{
+#features .col:hover{
 	color: #ff8533;
 	/*border: 1px solid #ff8533;*/
 }
 
 /* SPECIALIST */
-.specialities{
+#specialities{
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/shrimp.jpg");
 	background-position: center;
     background-size: cover;
 }
 
-.specialities h1{
+#specialities h1{
 	color: #fff;
 }
 
-.specialities .card{
+#specialities .card{
 	border-color: #bbb;
 	border-radius: 0;
 }
 
-.specialities p.price{
+#specialities p.price{
 	font-size: 2rem;
 	color: #ff8533;
 }
 
 /* MENU */
-.menu{
+#menu{
 	background-color: #fafafa;
 }
 
-.menu .menu-item{
+#menu .menu-item{
 	margin-bottom: 1rem;
 }
 
-.menu .menu-price{
+#menu .menu-price{
 	color: #ff8533;
 	font-size: 1.25rem;
 	margin-bottom: 0;
 }
 
-.menu .card{
+#menu .card{
 	margin-bottom: 5rem;
 }
 
 /* CONTACT */
-.contact{
+#contact{
 	color: #ff8533;
 	background-color: #333;
 }
 
-.contact .fa{
+#contact .fa{
 	margin-bottom: 2rem;
 }
 
-.contact h5{
+#contact h5{
 	margin-bottom: 1rem;
 }
 
-.contact a{
+#contact a{
 	color: #ff8533;
 	border: 1px solid #ff8533;
 }
