@@ -12,13 +12,17 @@ section{
 	padding-bottom: 5em;
 }
 
-h1{
+/*h1{
 	margin-bottom: 1em;
-}
+}*/
 
 /* BOOTSTRAP OVERRIDE */
 
-.btn-outline-primary{
+.btn-outline-primary,
+.btn-outline-primary:active,
+.btn-outline-primary:focus{
+	background-color: transparent;
+	outline: none;
 	border-color: #ff8533;
 	color: #ff8533;
 	border-radius: 0;
@@ -53,8 +57,7 @@ h1{
 	margin-left: 10%;
 }
 
-.landing .intro button{
-}
+
 
 /* ABOUT */
 
@@ -136,6 +139,18 @@ h1{
 #contact a{
 	color: #ff8533;
 	border: 1px solid #ff8533;
+}
+
+#map{
+	height: 400px;
+}
+
+.map-detail{
+	color: #ff8533;
+}
+
+.map-detail h5{
+	margin-bottom: 1rem;
 }
 
 
