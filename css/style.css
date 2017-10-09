@@ -1,6 +1,6 @@
 /* THEME COLOR */
-/* #FF8533 */
-/* #FF7111 */
+/* #FF8533 - rgb(255, 133, 51) */
+/* #FF7111 - rgb(255, 113, 17)*/
 
 
 html, body{
@@ -137,6 +137,11 @@ section{
 	background-color: #fafafa;
 }
 
+.menu-category-button{
+	background-color: rgba(255, 133, 51, 0.5);
+	border: none;
+}
+
 #menu .menu-item{
 	margin-bottom: 1rem;
 }
@@ -153,6 +158,13 @@ section{
 
 .grid{
 	min-height: 12rem;
+}
+
+.overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
 }
 
 /* CONTACT */
