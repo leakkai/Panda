@@ -151,6 +151,10 @@ section{
 	margin-bottom: 5rem;
 }
 
+.grid{
+	min-height: 12rem;
+}
+
 /* CONTACT */
 #contact{
 	color: #ff8533;
